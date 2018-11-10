@@ -30,6 +30,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    public void start(View view){
+        setContentView(R.layout.activity_details);
+    }
     public void ageInput(View view){
 
         EditText input = (EditText) findViewById(R.id.age) ;
