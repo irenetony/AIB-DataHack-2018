@@ -10,7 +10,7 @@
         tools:layout_editor_absoluteX="8dp">
 
         <ImageView
-            android:id="@+id/android_cookie_image_view"
+            android:id="@+id/introPg"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="fitCenter"
