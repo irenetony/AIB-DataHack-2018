@@ -40,6 +40,13 @@ public class MainActivity extends AppCompatActivity {
         EditText input = (EditText) findViewById(R.id.weight) ;
         this.weight = Integer.parseInt(input.getText().toString());
     }
+    public void heightInput(View view){
+        EditText input = (EditText) findViewById(R.id.height) ;
+        this.height = Integer.parseInt(input.getText().toString());
+    }
+
+
+
 
 
 }
